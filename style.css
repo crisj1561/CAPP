@@ -1,0 +1,47 @@
+/* 
+1. Posicionamiento
+2. Modelo de caja (Box Model)
+3. Tipografía
+4. Visualización
+5. Otros
+*/
+
+:root{
+    /* Base Color */
+    --base-white: #ffffff;
+    --base-black: #000000;
+    /* Gris */
+    --gray-01: #F9FAFB;
+    --gray-02: #F3F4F6;
+    --gray-03: #E5E7EB;
+    --gray-04: #9CA3AF;
+    --gray-05: #6B7280;
+    --gray-06: #111827;
+    /*Primary Color  */
+    --primary-01: #FDEFF3;
+    --primary-02: #EEC3CF;
+    --primary-03: #D06B87;
+    --primary-04: #B2133F;
+    --primary-05: #6B0B26;
+    --primary-06: #470819;
+    /* Secondary color */
+    --secondary-01: #F7FDFF;
+    --secondary-02: #C6E9F5;
+    --secondary-03: #63C0E2;
+    --secondary-04: #0097CE;
+    --secondary-05: #005B7C;
+    --secondary-06: #003C52;
+    /* Complementary */
+    --complementary-01: #FFB076;
+    --complementary-success: #12B76A;
+    --complementary-error: #F04438;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
