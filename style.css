@@ -45,3 +45,62 @@
 html{
     font-family: 'Open Sans', sans-serif;
 }
+header{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 320px;
+  height: 100vh;
+  text-align: left;
+  background-image: url('https://res.cloudinary.com/dbj1jqsmk/image/upload/v1677672845/Inicio_-_Hero_bzbhg4.jpg');
+  background-position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  padding: 16px 27px;
+}
+.nav--logo{
+  height: 40px;
+}
+.header--detaiils-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 24px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+.header--detaiils-container h1{
+  color: var(--base-white);
+  font-family: Yantramanav;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.header--detaiils-container p{
+  color: var(--base-white);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.header--button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  height: 60px;
+  padding: 16px;
+  background-color: var(--secondary-04);
+  text-decoration: none;
+  color: var(--base-white);
+}
+  
